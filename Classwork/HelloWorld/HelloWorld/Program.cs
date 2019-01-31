@@ -84,8 +84,8 @@ namespace ConsoleApp1
             10.ToString();  //  "10"
 
             // Is string empty
-            string input = null;
-            int length = input.Length;
+            string input = " ";
+            // int length = input.Length;
             bool isEmpty;
 
             // 1.)
@@ -188,6 +188,51 @@ namespace ConsoleApp1
                 Console.WriteLine("Enter a valid decimal value");
 
             };
+
+            // Type Alias - Both can be used, formal name usually used for function calling
+            // float => Single
+            // byte => Byte
+            // short => Int16
+            // int => Int 32
+            // string => String
+            // bool => Boolean
+            // double => Double
+
+            // The break statement in a Switch is not considered a statement and does not need a bracket
+        }
+
+        private static void PlayWithArrays()
+        {
+            // int[] name;   Array call
+            // int[] name = new int[n];    Array creation
+            // Arrays start as a null and need to be declared to be used
+            // C# has bounds checking and prevents a off by one error
+            // In C# arrays are always open, never predetermined size. Can pass any size.
+
+
+            // for(var index = 0; index < size; ++index)
+            // int size = 100;
+            int[] prices = new int[100];
+            for (var index = 0; index < prices.Length; ++index)
+            {
+                prices[index] = index + 1;
+            };   // index is strictly scoped to the for loop because it is declared here
+
+            DisplayArray(prices);
+
+            var input = "field1,field2,field3;field4,,field5";
+            var fields = input.Split(',', ';');  // String parses and applies results into an array
+        }
+
+        private static void DisplayArray( int[] values/*, int count*/ )
+        {
+            // for (var index = 0; index < values.Length; ++index)
+            foreach (var item in values)
+            {
+                // Console.WriteLine(values[index]);
+                Console.WriteLine(item);
+            };  // Array size cannot change with a foreach. Item is READ ONLY.
+
         }
 
         private static string name;
@@ -196,6 +241,7 @@ namespace ConsoleApp1
         private static bool owned;
         private static bool completed;
 
+        
     }
 
 }
