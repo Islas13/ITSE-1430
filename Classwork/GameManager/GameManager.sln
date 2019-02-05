@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManager.Host.Winforms", "GameManager.Host.Winforms\GameManager.Host.Winforms.csproj", "{2CF276C0-1E2F-4771-A612-617D058002A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManager", "GameManager\GameManager.csproj", "{62DB6DB0-BBBF-4202-B911-57661A266095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF276C0-1E2F-4771-A612-617D058002A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF276C0-1E2F-4771-A612-617D058002A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF276C0-1E2F-4771-A612-617D058002A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF276C0-1E2F-4771-A612-617D058002A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DB6DB0-BBBF-4202-B911-57661A266095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DB6DB0-BBBF-4202-B911-57661A266095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DB6DB0-BBBF-4202-B911-57661A266095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DB6DB0-BBBF-4202-B911-57661A266095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7EA5CD4-3495-4F33-BD0B-902CD2B2EA6E}
+	EndGlobalSection
+EndGlobal
