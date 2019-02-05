@@ -55,6 +55,9 @@ namespace PizzaCreator
 
             Console.WriteLine(size);
             Console.WriteLine(price);
+
+            Console.WriteLine("\n(B)acon" + "\n(H)am" + "\n(P)epperoni" + 
+                "\n(S)ausage" + "\n\nChoose meat options ($0.75 Each): ");
         }
 
         private static string size;
